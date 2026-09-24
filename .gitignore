@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+.venv2/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Kaggle data
+data/raw/*
+data/processed/*
+
+# Model predictions
+predictions/*
+
+# Submissions
+submissions/*
+
+# Secrets
+.env
+kaggle.json

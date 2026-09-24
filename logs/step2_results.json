@@ -1,0 +1,93 @@
+{
+  "n_folds": 5,
+  "seed": 42,
+  "n_estimators": 1000,
+  "early_stopping_rounds": 50,
+  "learning_rate": 0.1,
+  "global_positive_rate": 0.17464500160768098,
+  "fold_positive_rates": {
+    "0": 0.17463901953893204,
+    "1": 0.1746464971248682,
+    "2": 0.1746464971248682,
+    "3": 0.1746464971248682,
+    "4": 0.1746464971248682
+  },
+  "baseline_auc": 0.9412218507512521,
+  "engineered_auc": 0.9412261166715965,
+  "auc_diff": 4.265920344415086e-06,
+  "baseline_n_features": 13,
+  "engineered_n_features": 22,
+  "new_features": [
+    "Total_Charging_Stations",
+    "Charging_Per_Commute",
+    "Has_Home_Charging",
+    "Income_Per_Age",
+    "Range_Anxiety_Num",
+    "Anxiety_Commute_Ratio",
+    "Has_Multiple_Cars",
+    "Subsidy_Flag",
+    "Eco_Subsidy_Score"
+  ],
+  "top15_importance": [
+    {
+      "feature": "Annual_Income_USD",
+      "importance": 1102.6
+    },
+    {
+      "feature": "Charging_Stations_Near_Work",
+      "importance": 498.4
+    },
+    {
+      "feature": "Age",
+      "importance": 407.0
+    },
+    {
+      "feature": "Daily_Commute_km",
+      "importance": 384.4
+    },
+    {
+      "feature": "Charging_Stations_Near_Home",
+      "importance": 359.4
+    },
+    {
+      "feature": "Income_Per_Age",
+      "importance": 292.2
+    },
+    {
+      "feature": "Anxiety_Commute_Ratio",
+      "importance": 287.6
+    },
+    {
+      "feature": "Charging_Per_Commute",
+      "importance": 264.8
+    },
+    {
+      "feature": "Eco_Subsidy_Score",
+      "importance": 257.0
+    },
+    {
+      "feature": "Range_Anxiety_Level",
+      "importance": 173.2
+    },
+    {
+      "feature": "Environmental_Concern_Level",
+      "importance": 130.4
+    },
+    {
+      "feature": "Total_Charging_Stations",
+      "importance": 109.6
+    },
+    {
+      "feature": "Subsidy_Available",
+      "importance": 75.6
+    },
+    {
+      "feature": "Home_Charging_Possible",
+      "importance": 65.4
+    },
+    {
+      "feature": "Gender",
+      "importance": 42.8
+    }
+  ]
+}

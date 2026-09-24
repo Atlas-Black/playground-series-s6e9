@@ -1,0 +1,3 @@
+version,model,features,oof_auc,lb_auc,note
+LGB_V1,LightGBM,raw_13,0.941222,,baseline
+CAT_V1,CatBoost,raw_13,0.941619,,baseline
