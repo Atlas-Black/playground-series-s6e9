@@ -1,0 +1,3 @@
+experiment,n_features,oof_roc_auc,test_mean_prob,note,timestamp
+baseline_lgb,13,0.941222,0.174667,原始 13 特征,2026-09-24T02:35:59Z
+engineered_lgb,22,0.941226,0.174666,原始+9 衍生特征（未涨分）,2026-09-24T02:35:59Z
