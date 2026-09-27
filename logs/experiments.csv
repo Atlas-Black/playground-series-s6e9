@@ -1,3 +1,6 @@
 version,model,features,oof_auc,lb_auc,note
 LGB_V1,LightGBM,raw_13,0.941222,,baseline
 CAT_V1,CatBoost,raw_13,0.941619,,baseline
+XGB_V1,XGBoost,raw_13,0.941369,,baseline
+ENS_V1,Weighted Ensemble,LGB_V1+CAT_V1+XGB_V1,0.941750,0.94146,LGB=0.08 CAT=0.60 XGB=0.32
+ENS_V3 | XGB_V1 0.13 + CAT_V6 0.20 + CAT_FEAT_V2 0.67 | OOF 0.942074 | Public LB 0.94180 | Best so far
